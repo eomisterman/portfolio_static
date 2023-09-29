@@ -1,4 +1,9 @@
-#navigation {
-    display: flex;
-    justify-content: center;
-  }
+@font-face {
+  font-family: 'Fervojo';
+  src: url('../assets/fervojo.otf') format('opentype');
+}
+
+.test {
+  font-family: 'Fervojo', sans-serif; /* Use the font */
+  font-weight: 200;
+}
