@@ -1,41 +1,38 @@
 <!-- Doctype declaration -->
 <!DOCTYPE html>
-<!-- HTML tag -->
 <html>
-<!-- Head tag -->
 <head>
-    <!-- Meta tag -->
     <meta charset="utf-8">
-    <!-- Title tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <!-- Link tag -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <!-- Script tag -->
     <script type="text/javascript" src="js/script.js"></script>
 </head>
-<!-- Body tag -->
 <body>
-    <header>
-        <div class="container">
-        <h1>Emilio Ovalles-Misterman</h1>
-        </div>
-    </header>
+    <section class="flex flex-row">
+        <section class="shrink-0 mx-7 my-10 h-full sm:basis-48">
+            <section class="">
+                <h1 class="text-xl sm:text-3xl font-mono font-bold">Emilio</br>Ovalles-</br>Misterman</h1>
+            </section>
+        
+            <section class="text-xs sm:text-sm font-mono font-normal mt-16">
+                <ul>
+                    <li class="mb-4"><a href="index.html">Home</a></li>
+                    <li class="mb-4"><a href="about.html">About</a></li>
+                    <li class="mb-4"><a href="projects.html">Projects</a></li>
+                    <li class="mb-4"><a href="contact.html">Contact</a></li>
+                    <li class="mb-4"><a href="">CV</a></li>
+                </ul>
+            </section>
 
-    <section id="navigation">
-        <div class="container">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-        </div>
+        </section>
+    
+        <section class="min-h-fit basis-auto my-10 mr-7 text-sm font-mono text-slate-700 max-w-lg">
+            
+        </section>
+
+        
     </section>
-
-    <footer>
-        <div class="container">
-        <p>&copy; 2023 Emilio Ovalles-Misterman</p>
-        </div>
-    </footer>
 </body>
 </html>

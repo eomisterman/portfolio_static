@@ -1,78 +1,65 @@
 <!-- Doctype declaration -->
 <!DOCTYPE html>
-<!-- HTML tag -->
 <html>
-<!-- Head tag -->
-<head>
-    <!-- Meta tag -->
-    <meta charset="utf-8">
-    <!-- Title tag -->
-    <title>Projects</title>
-    <!-- Link tag -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Script tag -->
-    <script type="text/javascript" src="js/script.js"></script>
-</head>
-<!-- Body tag -->
-<body>
-    <header>
-        <div class="container">
-        <h1>Emilio Ovalles-Misterman</h1>
-        </div>
-    </header>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Projects</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <script type="text/javascript" src="js/script.js"></script>
 
-    <section id="navigation">
-        <div class="container">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-        </ul>
-        </div>
-    </section>
+    </head>
 
-    <section id="projects">
-        <div class="container">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>TracKemist</h3>
-            <p>React web app that connects to Spotify and allows users to create playlists and view their favorite songs and artists.</p>
-            <a href="https://playmakerspotify.com">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Schedule</h3>
-            <p>Website displaying mock schedule for a youth sports team. The front end is made using React and the API is made with Kotlin and SpringBoot.</p>
-            <a href="https://github.com/eomisterman/gamechanger_app">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Machine Eyes</h3>
-            <p>Capstone project for the Computer Science major. Using Kinect motion sensor, machine learning, and Max, Machine Eyes is capable of tracking and identifying movements within a space. When target movements are identified, eyes are projected on a canvas to follow the user throughout the space.</p>
-            <a href="https://github.com/eomisterman/machine-eyes">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Scraper</h3>
-            <p>Basic web scraper using node.js.</p>
-            <a href="https://github.com/eomisterman/scraper">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Adventure Time</h3>
-            <p>This site is an adventure piece for the Digital Studio class, it explores addiction and the effects that addiction has on one's perception, health, and values.</p>
-            <a href="https://github.com/eomisterman/adventure_time">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Sketches</h3>
-            <p>Collection of sketches generated using p5.js.</p>
-            <a href="https://github.com/eomisterman/domestika">View Project</a>
-        </div>
-        <!-- Add more projects as needed -->
-        </div>
-    </section>
+    <body class="h-screen">
+        <section class="flex flex-row">
+            <section class="shrink-0 mx-7 my-10 h-full sm:basis-48">
+                <section class="">
+                    <h1 class="text-xl sm:text-3xl font-mono font-bold">Emilio</br>Ovalles-</br>Misterman</h1>
+                </section>
+            
+                <section class="text-xs sm:text-sm font-mono font-normal mt-16">
+                    <ul>
+                        <li class="mb-4"><a href="index.html">Home</a></li>
+                        <li class="mb-4"><a href="about.html">About</a></li>
+                        <li class="mb-4"><a href="projects.html">Projects</a></li>
+                        <li class="mb-4"><a href="contact.html">Contact</a></li>
+                        <li class="mb-4"><a href="">CV</a></li>
+                    </ul>
+                </section>
 
-    <footer>
-        <div class="container">
-        <p>&copy; 2023 Emilio Ovalles-Misterman</p>
-        </div>
-    </footer>
-</body>
+            </section>
+        
+            <section class="min-h-fit basis-auto my-10 mr-7 text-sm font-mono text-slate-700 max-w-lg">
+                <h2 class="text-3xl sm:text-2xl font-extrabold mb-16">Projects</h2>
+                <div class="mb-16">
+                    <a href="https://playmakerspotify.com" class="text-xl font-light mb-1">TracKemist</a>
+                    <p>React web app that connects to Spotify and allows users to create playlists and view their favorite songs and artists.</p>
+                </div>
+                <div class="mb-16">
+                    <a href="https://github.com/eomisterman/gamechanger_app" class="text-xl font-light mb-1">Schedule</a>
+                    <p>Website displaying mock schedule for a youth sports team. The front end is made using React and the API is made with Kotlin and SpringBoot.</p>
+                </div>
+                <div class="mb-16">
+                    <a href="https://github.com/eomisterman/machine-eyes" class="text-xl font-light mb-1">Machine Eyes</a>
+                    <p>Capstone project for the Computer Science major. Using Kinect motion sensor, machine learning, and Max, Machine Eyes is capable of tracking and identifying movements within a space. When target movements are identified, eyes are projected on a canvas to follow the user throughout the space.</p>
+                </div>
+                <div class="mb-16">
+                    <a href="https://github.com/eomisterman/scraper" class="text-xl font-light mb-1">Scraper</a>
+                    <p>Basic web scraper using node.js.</p>
+                </div>
+                <div class="mb-16">
+                    <a href="https://github.com/eomisterman/adventure_time" class="text-xl font-light mb-1">Adventure Time</a>
+                    <p>This site is an adventure piece for the Digital Studio class, it explores addiction and the effects that addiction has on one's perception, health, and values.</p>
+                </div>
+                <div class="mb-16">
+                    <a href="https://github.com/eomisterman/domestika" class="text-xl font-light mb-1">Sketches</a>
+                    <p>Collection of sketches generated using p5.js.</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </section>
+
+            
+        </section>
+    </body>
 </html>
